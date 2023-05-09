@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="./CSS/index.css">
+  <link rel="stylesheet" href="./CSS/dropdown.css">
+  <link rel="stylesheet" href="./FrentEnd/CSS/cart.css">
+  <script src="https://kit.fontawesome.com/c4c2af89bd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--...................login-part-end...............................-->
+
+
+  <!--------------------------dropdown-section---------------------->
+ 
+  <!---------------------dropdown-section-End------------------------->
+  <div class="belowcont">
+    <div class="left" id="left">
+      <h1 id="section">Cart</h1>
+      <div class="heading" id="productbelow">Order Summary</div>
+      <div class="smallhead" style="margin-bottom: 20px">Your Items</div>
+      <div>
+        <div id="list">
+          <h4>Product</h4>
+          <h4>Product Name</h4>
+          <h4>Price</h4>
+          <h4>Quantity</h4>
+        </div>
+        <div id="container"></div>
+        <div id="checkoutdiv">
+          <div style="display: flex; gap: 10px; align-items: center">
+            <input id="inputpromo" type="text" placeholder="Enter Promocode" />
+            <button id="apply_promo_btn">Apply Promo</button>
+          </div>
+          <button onclick="window.location.href='address.html'" id="checkout_btn">Checkout</button>
+        </div>
+      </div>
+      <div class="cartdetail" id="addinghear"></div>
+    </div>
+    <div class="right" id="righ">
+      <div class="checkout">
+        <div class="checkoutbut">Payment Summary</div>
+        <div class="pament_summary">
+          <div>
+            <!-- <div id="cartname"> -->
+            <div>No. Of Items :</div>
+            <div id="item_no">0</div>
+          </div>
+          <div>
+            <div>Order Subtotal :</div>
+            <div id="total"></div>
+          </div>
+          <div>
+            <div>Discount :</div>
+            <div id="discount">0%</div>
+          </div>
+          <div>
+            <div>Tax (GST) :</div>
+            <div>+18%</div>
+          </div>
+          <div style="border-bottom: 1px solid #d5d9db; margin-bottom: 5px">
+            <div>Shipping :</div>
+            <div>Free Shipping</div>
+          </div>
+          <div>
+            <div>Order Total :</div>
+            <div id="ordertotal">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- <script src="./FrentEnd/Script/cart.js"></script> -->
+<script>
+   
+  fethdata()
+  async function fethdata() {
+    try {
+      let response = await fetch("http://localhost:4300/cart/get");
+      if (response.ok) {
+        let res = await response.json();
+        console.log(res);
+        displayProduct(res.data)
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  var count=1;
+  let container = document.getElementById("container")
+  function displayProduct(data) {
+    container.innerHTML=null;
+    data.forEach((element) => {
+  console.log(element)
+      let card = document.createElement("div")
+      card.setAttribute("class", "api_div")
+
+      let image = document.createElement("img")
+      image.setAttribute("src", element.image);
+      image.setAttribute("class", "api_img")
+
+      let div = document.createElement("div")
+
+      let desc = document.createElement("p")
+      desc.setAttribute("class", "desc_name")
+
+      let btn = document.createElement("button");
+      btn.setAttribute('class', "cartbtn");
+   
+      btn.innerText = "+"
+      btn.addEventListener("click", (e) => {
+       
+        count=count+1;
+        console.log(count)
+        displayProduct(data)
+        // cartfetch(element)
+      })
+     
+      desc.innerText = element.additional
+      div.append(desc)
+     let p=document.createElement("p");
+     p.innerText=count;
+
+      let price = document.createElement("p")
+      price.setAttribute("class", "price_name")
+      price.innerText = element.price
+
+      card.append(image, div, price,p, btn)
+      container.append(card)
+
+    })
+  }
+
+  function calculateMon(){
+    const numberOfItems=document.getElementById("item_no");
+    numberOfItems.innerText=""
+  }
+
+</script>

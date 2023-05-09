@@ -1,0 +1,371 @@
+.fast_free {
+    display: block;
+    /* display: flex; */
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 45px;
+    background-color: #00A8E1;
+}
+
+.fast_free>h4 {
+    font-size: 17px;
+    padding-top: 7px;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.shop_all {
+    font-size: 10px;
+    margin-top: 3%;
+}
+
+.shop_all>h2 {
+    font-size: 25px;
+
+}
+
+.option_az {
+    width: 15%;
+    /* background-color: lightblue; */
+  height: 60%;
+  /* width: 200px; */
+ 
+}
+
+.product_and_opt {
+    display: flex;
+    width: 100%;
+    /* height: 800px; */
+    /* border: 1px solid red; */
+}
+
+
+
+.product_api {
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+/* ---------------------------------------- */
+
+
+.opt_navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+.opt_navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.opt_navbar input {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.opt_dropdown {
+    float: left;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+button {
+    background-color: white;
+    padding: 0px 15px;
+    border: 0px;
+    font-weight: bolder;
+}
+
+.opt_dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    /* padding: 14px 16px; */
+    background-color: black;
+    font-family: inherit;
+    margin: 0;
+}
+
+.opt_navbar a:hover,
+.opt_dropdown:hover .opt_dropbtn {
+    background-color: white;
+}
+
+.opt_navbar input:hover,
+.opt_dropdown:hover .opt_dropbtn {
+    background-color: white;
+}
+
+.opt_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    left: 5%;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+
+.opt_dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.opt_dropdown-content input {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.opt_dropdown-content a:hover {
+    background-color: white
+}
+
+.opt_dropdown:hover .opt_dropdown-content {
+    display: block;
+
+}
+
+.hr_line1 {
+
+    border: 1.5px solid #DADADA;
+}
+
+#vehicle2 {
+    display: inline;
+   width: 20px;
+    height: 20px;
+
+}
+
+#vehicle3 {
+    display: inline;
+   width: 20px;
+    height: 20px;
+
+}
+
+#vehicle4 {
+    display: inline;
+   width: 20px;
+    height: 20px;
+
+}
+
+#vehicle5 {
+    display: inline;
+    width: 20px;
+    height: 20px;
+
+   width: 20px;
+    height: 20px;
+
+}
+
+#vehicle1 {
+
+    display: inline;
+    width: 20px;
+    height: 20px;
+
+}
+
+/* ---------------api-------------------- */
+.api_7image_flex{
+    display: flex;
+}
+.api_7image_flex>div{
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: auto;
+}
+.api_7image_flex>div>img{
+   width: 270px;
+}
+.api_7image_flex>div>p{
+    text-align: center;
+ }
+ .api_7image_flex>div>hr{
+    border-style: dotted;
+    border-top: 3px dotted #00A8E1; 
+    /* color: #00A8E1; */
+    /* background-color: #00A8E1; */
+ }
+
+ #fetchCardData{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 1px solid red; */
+    margin: auto;
+    gap: 2%;
+
+}
+.api_div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    /* margin-top: 5%; */
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+
+}
+.api_img{
+    width: 400px;
+}
+
+.desc_name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .add_name{
+   text-align: center;
+    font-size: 18px;
+    color: #11368e;
+} */
+.price_name{
+  
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cartbtn{
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 950px) {
+    .product_api {
+      width: 100%;
+      display: block;
+    }
+  
+  .product_api{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+   
+  }
+  .api_7image_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+      
+   
+  }
+  #fetchCardData{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+grid-template-columns: repeat(2,1fr);
+    
+   
+  }
+  /* .api_img{
+    width: 400px;
+} */
+
+.desc_name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+/* .add_name{
+   text-align: center;
+    font-size: 18px;
+    color: #11368e;
+} */
+.price_name{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cartbtn{
+    display: block;
+    margin: auto;
+}
+.padding_4x{
+    margin-top: 90%;
+}
+}
+
+@media screen and (max-width: 550px) {
+    .product_api {
+      width: 100%;
+      display: block;
+    }
+  
+  .product_api{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+   
+  }
+  .api_7image_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+      
+   
+  }
+  #fetchCardData{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+grid-template-columns: repeat(1,1fr);
+    
+   
+  }
+ 
+
+.desc_name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.price_name{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cartbtn{
+    display: block;
+    margin: auto;
+}
+.padding_4x{
+    margin-top: 90%;
+}
+}

@@ -1,0 +1,361 @@
+#pic_four_flex{
+    display: flex;
+    margin: auto;
+    background-color: #F4F4F4;
+    /* border: 1px solid red;  */
+    
+}
+@media (max-width:920px){
+  #pic_four_flex{
+  display: flex;
+  flex-direction:row;
+  
+} 
+}
+#pic_four_flex>div{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid red;  */
+}
+.four_pic{
+
+   margin: auto;
+    /* border: 1px solid red;  */
+   
+}
+.four_pic>img{
+  background: #F4F4F4;
+  width: 50px;
+  display: flex;
+    margin:15px;
+    /* border: 1px solid red;    */
+}
+.little_plant{
+    width: 350px;
+    margin-right:80% ;
+    /* border: 1px solid red;   */
+}
+.carter{
+    width: 70px;
+}
+.oshkosh{
+    width: 70px;
+}
+.skiphop{
+    width: 70px;
+}
+.h4_head>h4{
+    align-items: center;
+}
+.icon_four{
+    width: 20%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-between; */
+    font-size: larger;
+
+}
+.icon_four>div{
+  /* width: 15%; */
+  margin-left: 7%;
+
+}
+
+.icon_four>div>a{
+ color: #555;
+ font-size: 20px;
+
+}
+/* ---------------Dropdown-section------------- */
+
+  /* --------------------dropdown-section----------------------------- */
+  .off_h5{
+  
+  text-align: center;
+  background-color: #F4F4F4;
+   /* border: 1px solid red; */
+   /* border: 2px solid #60C9EC; */
+   border-color: #7719d4
+  }
+  .Lowest_price_pic>img{
+    width: 100%;
+  }
+  .sHOP_BY_AGE{
+    margin-top: 2%;
+    font-size: 50px;
+    color: #00a9e0;
+    text-align: center;
+  }
+.circle_img_6{
+    margin-top: 2%;
+    display: flex;
+   
+}
+.circle_img_6>div>img{
+   width: 200px;
+   
+}
+.circle_img_6>div{
+   margin: auto;
+ }
+ .circle_img_TEXT{
+    display: flex;
+
+  
+ }
+ .circle_img_TEXT>div{
+    display: flex;
+    margin: auto;
+  
+ }
+.two_baby>img{
+    margin-top: 2%;
+    width: 100%;
+    height:370px
+}
+.two_baby_2>img{
+    margin-top: 2%;
+    width: 100%;
+    height:370px
+}
+.two_baby_3>img{
+    margin-top: 2%;
+    width: 100%;
+    height:370px
+}
+.sHOP_BY_AGE{
+    margin-top: 2%;
+    font-size: 50px;
+    color: #00a9e0;
+    text-align: center;
+  }
+.circle_img_div_clr{
+    margin-top: 2%;
+    display: flex;
+   
+}
+
+.circle_img_div_clr>div>img{
+   width: 200px;
+   
+}
+.circle_img_div_clr>div{
+   margin: auto;
+   display: flex;
+ }
+ .circle_clr{
+    background-color: #00a9e0;
+    width: 15%;
+    height: 220px;
+    border-radius: 50%;
+ }
+ .circle_clr>h4{
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 35px;
+ }
+ .off_h6{
+  
+  text-align: center;
+  margin-top: 2%;
+  }
+  .colur_full_flex{
+    
+    display: flex;
+
+  }
+  .colur_full_1{
+    margin: auto;
+    width: 32%;
+    height: 190px;
+    background-color: #000000;
+  }
+  .colur_full_2{
+    margin: auto;
+    width: 32%;
+    height: 190px;
+    background-color:#ee3425;
+  }
+  .colur_full_3{
+    margin: auto;
+    width: 32%;
+    height: 190px;
+    background-color:#69b295;
+  }
+  .oshkosh_logo{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .colur_full_1>p{
+    text-align: center;
+    color: white;
+  }
+  .colur_full_1>a{
+    display: block;
+    text-align: center;
+    color: white;
+  }
+  .colur_full_2>p{
+    text-align: center;
+    color: white;
+  }
+  .colur_full_2>a{
+    display: block;
+    text-align: center;
+    color: white;
+  }
+  .colur_full_3>p{
+    text-align: center;
+    color: white;
+  }
+  .colur_full_3>a{
+    display: block;
+    text-align: center;
+    color: white;
+  }
+  .four_pic_holder{
+    display: flex;
+    /* border: 1px solid red; */
+  
+  }
+  .four_pic_holder_div{
+    display: block;
+    /* border: 1px solid red; */
+    margin: auto;
+  
+  }
+  .four_pic_holder_div>img{
+   width: 375px;
+  }
+  .Trending-right_now{
+    margin-top: 2%;
+    text-align: center;
+  }
+  /* ------------------trnding_rightNow-------------- */
+
+
+
+.column {
+  margin: auto;
+  float: left;
+  width: 18%;
+  margin-bottom: 16px;  
+    padding: 0 8px; 
+   /* border: 1px solid red; */
+   border-radius: 15px 15px 15px 15px;
+}
+
+@media screen and (max-width: 950px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.circle_img_6{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+ 
+ 
+}
+.circle_clr{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+.four_pic_holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+
+}
+.colur_full_flex>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.circle_img_TEXT{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+
+.row>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  border-radius: 15px 15px 15px 15px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+/* .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+} */
+
+.button:hover {
+  background-color: #555;
+}
+.row{
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 90%;
+}
+.shop_share>h1{
+  color: #00a9e0;
+  text-align: center;
+}
+.shop_share>h3{
+  text-align: center;
+}
+.shop_share>button{
+  display: block;
+  margin: auto; 
+  background-color: #00a9e0;
+  color: white;
+  padding: 7px 55px;
+  border: 0px;
+}

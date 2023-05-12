@@ -23,7 +23,7 @@
     "nodemon": "^2.0.22",
   <br>
  
-   <img src="https://imgur.com/PWeMrE8">
+   <img src="https://i.imgur.com/1X1nUSW.png">
 
 ## Conclusion
  I am able to complete this project within 4 working days.I have learned a lot while working on this project, and I proud of my accomplishments.

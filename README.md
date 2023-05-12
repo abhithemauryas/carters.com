@@ -23,7 +23,7 @@
     "nodemon": "^2.0.22",
   <br>
  
-   <img src="https://raw.githubusercontent.com/Yunuslala/Images/main/Tooth%20Tracker.png">
+   <img src="https://imgur.com/PWeMrE8">
 
 ## Conclusion
  I am able to complete this project within 4 working days.I have learned a lot while working on this project, and I proud of my accomplishments.

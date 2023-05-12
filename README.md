@@ -22,8 +22,19 @@
   <br>
     "nodemon": "^2.0.22",
   <br>
+   <h1>1.  Home Page  </h1><br><br>
+  <img src="https://i.imgur.com/1X1nUSW.png">
+  
+  
+  <h1>2. Login  </h1>
+  <br><br>
+  <img src="blob:https://imgur.com/6e823002-4693-4694-9254-52ba23596a61">
+
+  
+   <h1>3. Signup  </h1>
  
-   <img src="https://i.imgur.com/1X1nUSW.png">
+  <br><br>
+  <img src="https://i.imgur.com/fP5Tcza.png">
 
 ## Conclusion
  I am able to complete this project within 4 working days.I have learned a lot while working on this project, and I proud of my accomplishments.

@@ -28,7 +28,7 @@
   
   <h1>2. Login  </h1>
   <br><br>
-  <img src="blob:https://imgur.com/6e823002-4693-4694-9254-52ba23596a61">
+  <img src="https://i.imgur.com/pMI4tWT.png">
 
   
    <h1>3. Signup  </h1>
